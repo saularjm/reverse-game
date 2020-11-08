@@ -115,7 +115,7 @@ void reverse(int arr[], int len)
 
 int isSorted(int arr[], int len)
 {
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < len - 1; i++)
     {
         if (arr[i] > arr[i+1])
         {
